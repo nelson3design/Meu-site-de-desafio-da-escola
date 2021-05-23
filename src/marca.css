@@ -1,0 +1,128 @@
+.marca {
+	height: 300px;
+	display: flex;
+	flex-direction: row;
+
+	position: absolute;
+	top: 250px;
+	top: 120px;
+	background-color: unset;
+}
+@media screen and (max-width: 320px) {
+	.fundo {
+		height: 80vh;
+	}
+	.marca {
+		top: 120px;
+	}
+}
+.nome {
+	margin: 0;
+	background-color: unset;
+	padding-left: 0;
+}
+
+@media screen and (min-width: 992px) {
+	.marca {
+		top: 200px;
+	}
+	.nome {
+		padding-left: 50px;
+	}
+}
+
+h2 {
+	font-size: 30px;
+	color: white;
+	letter-spacing: 3px;
+	background-color: unset;
+}
+
+h3 {
+	font-size: 44px;
+	color: #009245;
+	text-transform: uppercase;
+	margin: 20px 0;
+	letter-spacing: 3px;
+	background-color: unset;
+}
+.gym {
+	font-size: 44px;
+	color: #d9e021;
+	text-transform: uppercase;
+	margin: 20px 0;
+	background-color: unset;
+}
+
+.bolinhas {
+	opacity: 0.5;
+	display: none;
+	gap: 5px;
+	background-color: unset;
+	margin-top: 20px;
+}
+.bola1 {
+	height: 10px;
+	width: 10px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 5px 0;
+}
+.bola-1 {
+	background-color: unset;
+	padding: 0 3px;
+}
+h4 {
+	font-size: 12px;
+	color: white;
+	text-transform: uppercase;
+	opacity: 0.3;
+	letter-spacing: 3px;
+	background-color: unset;
+}
+p {
+	font-size: 10px;
+	letter-spacing: 2px;
+	color: white;
+	margin: 20px 0;
+	opacity: 0.3;
+	background-color: unset;
+}
+
+.icon i {
+	color: #d9e021;
+	background-color: unset;
+}
+.icon i:hover {
+	color: white;
+	cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+	.bolinhas {
+		opacity: 0.5;
+		display: flex;
+		gap: 5px;
+		background-color: unset;
+	}
+
+	.nome {
+		margin: 20px 50px;
+		background-color: unset;
+	}
+
+	h3 {
+		font-size: 50px;
+	}
+	.gym {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	h3 {
+		font-size: 36px;
+	}
+	.gym {
+		font-size: 36px;
+	}
+}

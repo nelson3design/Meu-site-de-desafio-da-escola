@@ -1,0 +1,154 @@
+.header-base {
+	width: 100vw;
+	height: auto;
+
+	margin-top: -150px;
+	text-align: center;
+}
+@media screen and (max-width: 320px) {
+	.header-base {
+		width: 100vw;
+
+		margin-top: -150px;
+		text-align: center;
+	}
+}
+.header-content {
+	width: 100vw;
+}
+
+.lado-right {
+	display: none;
+
+	width: 7vw;
+	height: 700px;
+	background-color: var(--colortexto-3);
+	border-top-right-radius: 50px;
+	border: 1px solid white;
+	border-left: unset;
+	border-bottom-right-radius: 50px;
+}
+.lado-left {
+	display: none;
+
+	width: 7vw;
+	height: 700px;
+	background-color: var(--colortexto-3);
+	border-top-left-radius: 50px;
+	border: 1px solid white;
+	border-right: unset;
+	border-bottom-left-radius: 50px;
+}
+.images {
+	display: grid;
+	grid-template-rows: auto auto auto;
+	gap: 50px;
+	justify-content: center;
+	place-items: center;
+}
+
+.image-content span i {
+	color: red;
+	padding: 0 10px;
+	cursor: pointer;
+}
+.image-content span i:hover {
+	color: yellow;
+	transform: scale(1.5);
+}
+.image-content h6 {
+	font-size: 20px;
+}
+.image-content label {
+	display: block;
+	font-size: 20px;
+	padding: 10px 0;
+}
+
+.image {
+	width: 350px;
+	height: 460px;
+	padding: 0 5px;
+	background-color: white;
+	/* border-radius: 20px; */
+	border: 2px solid black;
+	display: grid;
+	grid-template-rows: auto auto;
+	justify-content: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+.foto img {
+	width: 100%;
+	position: relative;
+	padding: 0 10px;
+	padding-top: 14px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+h5 {
+	color: var(--colortexto);
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 38px;
+	letter-spacing: 3px;
+}
+
+@media screen and (max-width: 320px) {
+	.image {
+		width: 280px;
+		height: 430px;
+	}
+}
+@media screen and (min-width: 991px) {
+	.image {
+		width: 90vw;
+
+		height: 85vh;
+	}
+}
+
+@media screen and (min-width: 415px) and (max-width: 991px) {
+	.image {
+		width: 480px;
+		height: 600px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.header-base {
+		width: 100vw;
+
+		display: flex;
+		flex-direction: row;
+
+		justify-content: space-between;
+
+		margin-top: -150px;
+		text-align: center;
+	}
+	.header-content {
+		width: 100vw;
+
+		margin: 0;
+	}
+
+	.lado-right {
+		display: block;
+	}
+	.lado-left {
+		display: block;
+	}
+
+	.images {
+		display: flex;
+		flex-direction: row;
+		gap: 5vw;
+		justify-content: center;
+		place-items: center;
+	}
+	.image {
+		width: 390px;
+		height: 530px;
+	}
+}

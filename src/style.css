@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+@import 'nav.css';
+@import 'marca.css';
+@import 'header.css';
+@import 'carousel.css';
+@import 'plano.css';
+@import 'footer.css';
+@import 'galeria.css';
+@import 'contato.css';
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Orbitron", sans-serif;
+}
+:root {
+	--colortexto: #ed1c24;
+	--coloricon: #ed1c24;
+	--colornav: #d9e021;
+	--colortexto-2: black;
+	--colortextonav: black;
+	--colortexto-3: #293241;
+	--colortexto-5: #1b2029;
+	background-color: white;
+	--colorfundo: #293241;
+	--coloryellow: #d9e021;
+	--colortexto-4: #d9e021;
+	--coloryered: #ed1c24;
+	--colorfundo-2: white;
+	--colorhover: white;
+	--colornavcel: white;
+}
+.darktheme {
+	--colortexto: white;
+	--coloricon: white;
+	--colornav: #151515;
+	--colortextonav: white;
+	--colortexto-2: white;
+	--colortexto-3: #151515;
+	--colortexto-5: #252525;
+	--colortexto-4: white;
+	background-color: #252525;
+	--colorfundo: #19212b;
+	--coloryellow: #ed1c24;
+	--coloryered: rgb(160, 160, 160);
+	--colorfundo-2: white;
+	--colorhover: #d9e021;
+
+	--colornavcel: #252525;
+}
+.scroll-btn {
+	color: var(--colortexto-2);
+	font-size: 2rem;
+	cursor: pointer;
+	position: fixed;
+	bottom: 0px;
+	right: 0px;
+	/* display: none; */
+	z-index: 100;
+	opacity: 0.5;
+}
+.scroll-btn:hover {
+	color: gray;
+}
